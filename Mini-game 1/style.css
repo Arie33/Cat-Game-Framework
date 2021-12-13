@@ -1,0 +1,79 @@
+@font-face {
+  font-family: VanillaExtract;
+  src: url(../../fonts/VanillaExtractRegular.ttf);
+}
+
+.imgButton {
+  height: 50px;
+  width: 50px;
+}
+
+#alarm {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 8rem;
+  margin-left: 11.2rem;
+}
+
+/* Timer */
+#timer {
+  border: none;
+  font-family: VanillaExtract;
+  font-size: 1.5rem;
+  color: white;
+  background: none;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  border: 0;
+  background-color: #939FB2;
+  margin-top: 3.85rem;
+  margin-left: 4.5rem;
+  padding: 1.5rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  border-radius: 10px;
+  width: 40%;
+}
+
+/* Button */
+#start {
+  border: none;
+  font-family: VanillaExtract;
+  font-size: 1.5rem;
+  color: white;
+  background: none;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  border: 0;
+  background-color: #0EADFF;
+  margin-top: 8.85rem;
+  margin-left: 7.5rem;
+  padding: 1.5rem;
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+  padding-right: 3rem;
+  border-radius: 10px;
+  width: 12%;
+  position: absolute;
+}
+
+#clickarea {
+  margin-top: 35rem;
+  margin-left: 7rem;
+  /* No style on button */
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  background-color: none;
+}

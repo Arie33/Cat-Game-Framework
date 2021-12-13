@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../../images/iconflav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../images/iconflav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../images/iconflav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../images/iconflav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../images/iconflav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../images/iconflav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../images/iconflav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../images/iconflav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/iconflav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../images/iconflav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/iconflav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../images/iconflav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/iconflav/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../images/iconflav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link href="../../styles/reset.css" type="text/css" rel="stylesheet">
+    <link href="../../styles/variables.css" type="text/css" rel="stylesheet">
+    <link href="../../styles/general.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+
+
+    <script defer src="../../scripts/secrets.js"></script>
+    <script defer src="../../scripts/maps.js"></script>
+    <script defer src="../../scripts/get-distance.js"></script>
+    <script defer src="../../scripts/get-query-param.js"></script>
+    <script defer src="script.js"></script>
+
+  </head>
+  <body>
+    <div id="mapid"></div>
+
+
+    <div id= "marker-01"></div>
+    <div id= "marker-02"></div>
+    <div id= "marker-03"></div>
+
+    <div id="red-box">
+      <button id="minigame-button" name="button"></button>
+      <div id="profiel">
+        <p><a id="profiel-button">Profiel hier</a></p>
+      </div>
+      <div id="wrapper-RC">
+        <div class="resource-styling">
+          <p>Vis</p>
+          <p>Melk</p>
+          <p>Muizen</p>
+          <p>Coins</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="bottom-overlay">
+      <button id="inventory" name="button">Inventory</button>
+      <button id="quests" name="button">Quests</button>
+    </div>
+
+
+    <!-- <h1>Navigeer naar <span id="location-name"></span></h1>
+    <p>Nog <span id="distance"></span> meter</p> -->
+  </body>
+</html>

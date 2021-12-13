@@ -1,0 +1,73 @@
+@font-face {
+  font-family: VanillaExtract;
+  src: url(../../fonts/VanillaExtractRegular.ttf);
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+#mapid {
+    width: 100vw;
+    height: 100%;
+    border: 1px solid #ccc;
+    z-index: 1;
+    position: absolute;
+}
+
+#red-box {
+  height: 8vh;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 1%;
+}
+
+#bottom-overlay {
+  height: 8vh;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+}
+
+#profiel {
+  padding-top: 2%;
+}
+#wrapper-RC{
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#profiel {
+  font-size: 1rem;
+  position: relative;
+}
+
+#inventory {
+  font-size: 1rem;
+  position: relative;
+}
+
+#quests {
+  font-size: 1rem;
+  position: relative;
+}
+
+.mapbutton {
+  text-decoration: none;
+  border: 3px solid black;
+  padding: 2% !important;
+  color: black!important;
+  width: 150px !important;
+}
+
+.mapboxgl-popup-content {
+  width: 15vw !important;
+  height: 10vh !important;
+}

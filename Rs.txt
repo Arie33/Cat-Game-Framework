@@ -1,0 +1,14 @@
+https://code-boxx.com/gps-coordinates-map-javascript/ --> Code voor current Pos
+https://docs.mapbox.com/android/maps/guides/
+
+
+Vragen Kim :
+
+Hoe livelocation tracken en zien hoe speler allen in de bol zaken kan aanraken?
+Waardes optellen van zelfde minigame? --> 15 na spel = 30
+
+Nog te doen :
+If else functie impementeren na minigame = DONE 50%
+Overlay voor map? (win scherm + verlies scherm)
+
+Groep =  Styling voor alle schermen die al werken.

@@ -1,0 +1,340 @@
+@font-face {
+  font-family: VanillaExtract;
+  src: url(../../fonts/VanillaExtractRegular.ttf);
+}
+
+h1 {
+  color: var(--white);
+  margin-top: 50px;
+  text-align: center;
+}
+
+p {
+  color: var(--white);
+  margin-top: 15px;
+  text-align: center;
+}
+
+#logo-start {
+  margin-left: 55px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  width: 150%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+
+}
+
+
+/* General button style */
+.btn {
+	border: none;
+	font-family: VanillaExtract;
+	font-size: 1.5rem;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px 80px 0px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  border: 0;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+	font-family: VanillaExtract;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+/* Icon separator */
+.btn-sep {
+	padding: 10px 10px 10px 80px;
+}
+
+.btn-sep:before {
+	background: rgba(0,0,0,0.15);
+}
+
+/* Button 3 */
+.btn-3 {
+	background: #EB637A;
+	color: var(--white);
+  margin-left: 58px;
+  border-radius:8px;
+  width: 280px;
+  border-bottom: 5px solid #B85068;
+}
+
+.btn-3:hover {
+	background: #a84859;
+}
+
+.btn-3:active {
+	background: #a84859;
+	top: 2px;
+}
+
+.btn-3:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+  border-radius:8px 0px 0px 8px;
+	line-height: 1.6;
+	font-size: 140%;
+	width: 60px;
+}
+
+/* Button 3 */
+.btn-4 {
+	background: #55B1E3;
+	color: var(--white);
+  margin-left: 58px;
+  border-radius:8px;
+  width: 280px;
+  border-bottom: 5px solid #5F81AA;
+}
+
+.btn-4:hover {
+	background: #4390B9;
+}
+
+.btn-4:active {
+	background: #4390B9;
+	top: 2px;
+  border-bottom: 5px solid  #3062b3;
+}
+
+.btn-4:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 1.6;
+	font-size: 140%;
+	width: 60px;
+}
+
+/* General button style */
+.btnG {
+	border: none;
+	font-family: VanillaExtract;
+	font-size: 1.5rem;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 30px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  border: 0;
+}
+
+.btnG:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btnG:before {
+	font-family: VanillaExtract;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+/* Icon separator */
+.btn-sepG {
+	padding: 10px 10px 10px 70px;
+}
+
+.btn-sepG:before {
+	background: rgba(0,0,0,0);
+}
+.btn-5 {
+	background: #4C3E69;
+	color: var(--white);
+  margin-left: 58px;
+  border-radius:8px;
+  padding: 30px 30px 30px 80px;
+  width: 280px;
+  border-bottom: 5px solid #B0A1D9;
+}
+
+.btn-5:hover {
+	background: #4390B9;
+}
+
+.btn-5:active {
+	background: #4390B9;
+	top: 2px;
+  border-bottom: 5px solid  #3062b3;
+}
+
+.btn-5:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 2.9;
+	font-size: 140%;
+	width: 90px;
+}
+
+.btn-6 {
+	background: #4C3E69;
+	color: var(--white);
+  margin-left: 58px;
+  border-radius:8px;
+  padding: 30px 30px 30px 80px;
+  width: 280px;
+  border-bottom: 5px solid #B0A1D9;
+}
+
+.btn-6:hover {
+	background: #4390B9;
+}
+
+.btn-6:active {
+	background: #4390B9;
+	top: 2px;
+  border-bottom: 5px solid  #3062b3;
+}
+
+.btn-6:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+	font-size: 140%;
+	width: 90px;
+}
+.btn-7 {
+	background: #4C3E69;
+	color: var(--white);
+  margin-left: 58px;
+  border-radius:8px;
+  padding: 30px 30px 30px 80px;
+  width: 280px;
+  border-bottom: 5px solid #B0A1D9;
+}
+
+.btn-7:hover {
+	background: #4390B9;
+}
+
+.btn-7:active {
+	background: #4390B9;
+	top: 2px;
+  border-bottom: 5px solid  #3062b3;
+}
+
+.btn-7:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+	font-size: 140%;
+	width: 90px;
+}
+
+.btn-8 {
+	background: #4C3E69;
+	color: var(--white);
+  margin-left: 58px;
+  border-radius:8px;
+  padding: 30px 30px 30px 80px;
+  width: 280px;
+  border-bottom: 5px solid #B0A1D9;
+}
+
+.btn-8:hover {
+	background: #4390B9;
+}
+
+.btn-8:active {
+	background: #4390B9;
+	top: 2px;
+  border-bottom: 5px solid  #3062b3;
+}
+
+.btn-8:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3.4;
+	font-size: 140%;
+	width: 90px;
+}
+/* Icons */
+
+.icon-newgame:before {
+	content: url(../../icons/plus-icon.png);
+  margin-bottom: 20PX;
+
+}
+
+.icon-playbutton:before {
+	content: url(../../icons/play-icon.png);
+  margin-bottom: 20PX;
+}
+
+.icon-costumize:before {
+	content: url(../../icons/costumize-icon.png);
+}
+
+.icon-store:before {
+	content: url(../../icons/store-icon.png);
+}
+
+.icon-settings:before {
+	content: url(../../icons/settings-icon.png);
+}
+
+.icon-quit:before {
+	content: url(../../icons/quit-icon.png);
+}
